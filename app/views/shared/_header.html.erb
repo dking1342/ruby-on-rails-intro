@@ -4,16 +4,15 @@
     <nav class="navbar">
       <div class="container">
         <div class="navbar-brand">
+          <%= link_to "Home", root_path, class:"mt-3" %>
           <span class="navbar-burger" data-target="navbarMenuHeroA">
-            <span></span>
-            <span></span>
             <span></span>
           </span>
         </div>
         <div id="navbarMenuHeroA" class="navbar-menu">
           <div class="navbar-end">
             <span class="navbar-item"></span>
-            <%= link_to "Create new entry", new_entry_path, class:"button is-success" %>
+            <%= link_to "Create new entry", new_entry_path, class:"button is-success mt-3" %>
           </div>
         </div>
       </div>
